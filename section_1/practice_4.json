@@ -1,0 +1,26 @@
+{
+    "show_name": "数据的插入",
+    "type": "normal",
+    "point": 100,
+
+    "simple_desc": "数组是js的核心概念，本课程学习如何将一个数组插入到另一个数组中.",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "array_basic_operation.js",
+            "path": "/practices/section_1/practice_4/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_1/practice_4/array_basic_operation.js", "../specs/section_1/practice_4.js"]
+    },
+    "order": 3
+}

@@ -1,0 +1,26 @@
+{
+    "show_name": "二叉树的创建",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "通过从一个数组中不断的插入数据到一个二叉树的根节点创建二叉树是最基础的方法，本节就通过插入操作来学习最基础的二叉树创建.",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "binary_tree.js",
+            "path": "/practices/section_3/practice_2/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_3/practice_2/binary_tree.js","../specs/section_3/practice_2.js"]
+    },
+    "order": 2
+}

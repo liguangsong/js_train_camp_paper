@@ -1,0 +1,26 @@
+{
+    "show_name": "链表的创建",
+    "type": "normal",
+    "point": 100,
+
+    "simple_desc": "链表是最基础的数据结构，本课程学习如何从一个数组创建一个链表出来.",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "linked_list.js",
+            "path": "/practices/section_2/practice_2/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_2/practice_2/linked_list.js","../specs/section_2/practice_2.js"]
+    },
+    "order": 1
+}

@@ -1,0 +1,26 @@
+{
+    "show_name": "选择排序",
+    "type": "normal",
+    "point": 100,
+
+    "simple_desc": "选择排序是一种直观的排序算法，他和冒泡排序、选择排序是三种最基本的排序",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "array_sort.js",
+            "path": "/practices/section_5/practice_3/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_5/practice_3/array_sort.js", "../specs/section_5/practice_3.js"]
+    },
+    "order": 3
+}

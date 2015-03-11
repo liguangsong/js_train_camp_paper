@@ -1,0 +1,26 @@
+{
+    "show_name": "链表的插入2",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "将数据插入到链表的指定位置是一个较为复杂的操作，本节课程通过实例来学习它",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "linked_list.js",
+            "path": "/practices/section_2/practice_3/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_2/practice_3/linked_list.js", "../specs/section_2/create_list_from_array_for_test.js","../specs/section_2/practice_3.js"]
+    },
+    "order": 2
+}

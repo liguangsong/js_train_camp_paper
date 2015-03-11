@@ -1,0 +1,26 @@
+{
+    "show_name": "希尔排序",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "希尔排序，也称递减增量排序算法，是插入排序的一种更高效的改进版本。",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "array_sort.js",
+            "path": "/practices/section_5/practice_4/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_5/practice_4/array_sort.js", "../specs/section_5/practice_4.js"]
+    },
+    "order": 4
+}

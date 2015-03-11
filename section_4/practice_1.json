@@ -1,0 +1,26 @@
+{
+    "show_name": "哈希表的创建",
+    "type": "normal",
+    "point": 100,
+
+    "simple_desc": "哈希表是一种高效的数据结构，本节课学习哈西表的创建，实际上他是由数组组成的",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "hash_table.js",
+            "path": "/practices/section_4/practice_1/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_4/practice_1/hash_table.js", "../specs/section_4/practice_1.js"]
+    },
+    "order": 1
+}

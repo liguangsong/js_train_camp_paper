@@ -1,0 +1,26 @@
+{
+    "show_name": "冒泡排序",
+    "type": "normal",
+    "point": 100,
+
+    "simple_desc": "插入排序是最简单的排序算法之一，冒泡排序是与插入排序拥有相同效率，但是两种法在需要的交换次数却很大地不同。",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "array_sort.js",
+            "path": "/practices/section_5/practice_2/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_5/practice_2/array_sort.js", "../specs/section_5/practice_2.js"]
+    },
+    "order": 2
+}

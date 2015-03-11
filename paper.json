@@ -1,0 +1,39 @@
+{
+    "basic": {
+        "show_name": "数据结构与算法－初级训练营试卷",
+        "id_name":"js_intermediate_camps_paper",
+        "type": "camps",
+        "desc": "数据结构与算法是程序员发动程序魔法的基础，它造就了一代大魔导师。就让我们用天才创造魔法来引导我们伟大的程序吧。",
+        "target_effect": {
+            "name": "JS Console",
+            "desc": "JS Console是一个类似于网页JS控制台'console'的页面应用,是本站用来助力JS教学练习的一个助手工具,你可以在里面毫无顾虑的操练JS代码,而没有后顾之忧.",
+            "href": "/super_show/js_console.html"
+        },
+        "order": 15,
+        "ico": "/images/JS.PNG",
+        "title_ico": "/images/Javascript.png",
+        "version": "2.0.0.212",
+        "paper_config":{
+            "default": "all"
+        },
+        "job_info":{
+            "company":{
+                "name":"jimi",
+                "place":"石家庄",
+                "scale":"已上市",
+                "number_of_people":20
+            },
+            "salary":"3000-5000",
+            "position":"测试practices格式",
+            "experience":"无经验"
+        },
+        "publisher":"xyooyy"
+    },
+    "relevance":{
+        "type":"path",
+        "column":"_id",
+        "index":{
+            "id_name":"jobs"
+        }
+    }
+}

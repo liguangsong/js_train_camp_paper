@@ -1,0 +1,26 @@
+{
+    "show_name": "快速排序",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "快速排序是最为复杂的排序算法之一，他体现了分而治之的思想",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "array_sort.js",
+            "path": "/practices/section_5/practice_5/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_5/practice_5/array_sort.js", "../specs/section_5/practice_5.js"]
+    },
+    "order": 5
+}

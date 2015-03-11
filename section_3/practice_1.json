@@ -1,0 +1,26 @@
+{
+    "show_name": "二叉树插入",
+    "type": "normal",
+    "point": 100,
+
+    "simple_desc": "本课假定已经存在一棵二叉树，我们将数据插入这颗二叉树中来学习二叉树的插入.",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "binary_tree.js",
+            "path": "/practices/section_3/practice_1/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_3/practice_1/binary_tree.js", "../specs/section_3/create_binary_tree_for_test.js","../specs/section_3/practice_1.js"]
+    },
+    "order": 1
+}

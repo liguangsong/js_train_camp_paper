@@ -1,0 +1,26 @@
+{
+    "show_name": "二叉树的删除",
+    "type": "normal",
+    "point": 400,
+
+    "simple_desc": "二叉树的删除是二叉树操作中最难的部分，本堂课我们提供一种二叉树删除的一种思路，供大家参考",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "binary_tree.js",
+            "path": "/practices/section_3/practice_4/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_3/practice_4/binary_tree.js","../specs/section_3/create_binary_tree_for_test.js","../specs/section_3/practice_4.js"]
+    },
+    "order": 4
+}

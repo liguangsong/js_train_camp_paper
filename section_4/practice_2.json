@@ -1,0 +1,26 @@
+{
+    "show_name": "哈希表的插入",
+    "type": "normal",
+    "point": 100,
+
+    "simple_desc": "哈希表占用内存较多，用存储空间换取了运算速度，本节课学习哈希表的插入",
+    "desc_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "hash_table.js",
+            "path": "/practices/section_4/practice_2/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["../practices/section_4/practice_2/hash_table.js", "../specs/section_4/create_hash_table_for_test.js","../specs/section_4/practice_2.js"]
+    },
+    "order": 2
+}
